@@ -1,0 +1,38 @@
+#progressBar {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: none;
+}
+
+#progressBarInner {
+    height: 20px;
+    background-color: #4caf50;
+}
+
+#highlightedResult {
+    font-weight: bold;
+    color: blue;
+}
+
+body {
+    font-family: "noto sans", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #6448cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px
+}

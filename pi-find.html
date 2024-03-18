@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>πfind</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/svg+xml" href="https://zlxmq.github.io/pi-find/static/pifind.svg">
+</head>
+<body>
+<header>
+<h1><a href="https://zlxmq.github.io/pi-find">πfind</a>: find where a number is in π.</h1>
+<p>(this goes up to the first million digits after the decimal)</p>
+</header>
+<br><br>
+<label for="sequenceInput">enter sequence:</label>
+<input type="text" id="sequenceInput" placeholder="enter sequence">
+<button onclick="findSequence()">find</button>
+<div id="progressBar"><div id="progressBarInner"></div></div>
+<p id="result"></p>
+<br>
+<footer>
+    <p>happy pi day! (as of the time of writing this it is very much not pi day)</p>
+    <a href="https://zlxmq.github.io">zlxmq.github.io</a>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
